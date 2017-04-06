@@ -1,26 +1,2036 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Oyv-xg-Xem">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--アイドル-->
+        <scene sceneID="jyA-tR-YQP">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <tableViewController id="eM7-Lf-zpb" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="KN0-Wq-lFs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="CUr-HJ-zk6">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="Fgl-8B-RGW">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Fgl-8B-RGW" id="6av-lf-FUJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="100291_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Qa3-pF-7aQ">
+                                                    <rect key="frame" x="-22" y="4" width="130" height="71"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="小日向美穂" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lbt-dF-8Q9">
+                                                    <rect key="frame" x="93" y="24" width="155" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <color key="tintColor" red="1" green="0.73823103329999995" blue="0.8960302443" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.92810334549999995" blue="0.97448564039999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="dkU-Eo-tcy" kind="show" id="yGz-G9-f6M"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="yDT-np-1kr">
+                                        <rect key="frame" x="0.0" y="80" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yDT-np-1kr" id="bZi-Uu-4tX">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="200365_icon" translatesAutoresizingMaskIntoConstraints="NO" id="NNC-Ok-ACR">
+                                                    <rect key="frame" x="-22" y="4" width="130" height="71"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="多田李衣菜" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="n0t-Mk-mbN">
+                                                    <rect key="frame" x="93" y="24" width="155" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.81057347049999995" green="0.94437930299999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="6NK-F0-dPW" kind="show" id="5Fv-es-BKv"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="ZpT-0V-asN">
+                                        <rect key="frame" x="0.0" y="160" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZpT-0V-asN" id="OcW-Vw-Ncr">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="300335_icon" translatesAutoresizingMaskIntoConstraints="NO" id="h4L-Vs-Ym5">
+                                                    <rect key="frame" x="-22" y="4" width="130" height="71"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="大槻唯" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kPI-p5-fAy">
+                                                    <rect key="frame" x="93" y="24" width="155" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.95934623480000003" blue="0.79187935590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="FUT-Gu-t4r" kind="show" id="zfL-na-rDq"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="0YH-Ix-46e">
+                                        <rect key="frame" x="0.0" y="240" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0YH-Ix-46e" id="8J8-vo-CYi">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［華ほころびる宴］小早川紗枝(ICON)" translatesAutoresizingMaskIntoConstraints="NO" id="jvc-qR-cw3">
+                                                    <rect key="frame" x="-22" y="4" width="130" height="71"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="小早川紗枝" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kDk-5A-d6X">
+                                                    <rect key="frame" x="93" y="24" width="155" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.92810334549999995" blue="0.97448564039999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="1Af-BS-DTg" kind="show" id="YZw-Z4-uvO"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="l6C-x7-XpL">
+                                        <rect key="frame" x="0.0" y="320" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="l6C-x7-XpL" id="DPV-9x-roH">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［はじめての表情］橘ありす(ICON)" translatesAutoresizingMaskIntoConstraints="NO" id="QgO-8s-IUQ">
+                                                    <rect key="frame" x="-22" y="4" width="130" height="71"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="橘ありす" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eIl-Kr-5wa">
+                                                    <rect key="frame" x="93" y="24" width="155" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.81057347049999995" green="0.94437930299999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="sTg-2W-fam" kind="show" id="1xb-zK-CJE"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="mRp-0a-vZr">
+                                        <rect key="frame" x="0.0" y="400" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mRp-0a-vZr" id="Ii5-0T-rFG">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［わだつみの導き手］依田芳乃(ICON)" translatesAutoresizingMaskIntoConstraints="NO" id="Idq-Zd-0Hs">
+                                                    <rect key="frame" x="-22" y="4" width="130" height="71"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="依田芳乃" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sjZ-Rs-jws">
+                                                    <rect key="frame" x="93" y="24" width="155" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.95934623480000003" blue="0.79187935590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="F8Y-uu-EON" kind="show" id="4gJ-CT-TWe"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="YfR-rI-5P7">
+                                        <rect key="frame" x="0.0" y="480" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YfR-rI-5P7" id="FTS-ir-hyc">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［ぱーりぃー★ひゃっはー］星輝子+(ICON)" translatesAutoresizingMaskIntoConstraints="NO" id="n0J-Ol-a97">
+                                                    <rect key="frame" x="-22" y="4" width="130" height="71"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="星輝子" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eKp-mY-S46">
+                                                    <rect key="frame" x="93" y="24" width="155" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.95934623480000003" blue="0.79187935590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="GVS-9A-ZDb" kind="show" id="Yyp-G6-6DF"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="oSh-ZU-h1L">
+                                        <rect key="frame" x="0.0" y="560" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oSh-ZU-h1L" id="xMJ-vU-E5U">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［オーバー・マイセルフ］渋谷凛(ICON)" translatesAutoresizingMaskIntoConstraints="NO" id="r3C-3k-IKC">
+                                                    <rect key="frame" x="-22" y="4" width="130" height="71"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="渋谷凛" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gV1-zf-c60">
+                                                    <rect key="frame" x="93" y="24" width="155" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.81057347049999995" green="0.94437930299999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="XdC-uJ-QZK" kind="show" id="jub-PA-KGW"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="x5E-Hi-97B">
+                                        <rect key="frame" x="0.0" y="640" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="x5E-Hi-97B" id="MK7-Ib-k0l">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［グロリアス★グロウ］城ヶ崎美嘉+(ICON)" translatesAutoresizingMaskIntoConstraints="NO" id="hpd-ud-Dpl">
+                                                    <rect key="frame" x="-22" y="4" width="130" height="71"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="城ヶ崎美嘉" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gVv-yc-L6A">
+                                                    <rect key="frame" x="93" y="24" width="155" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.95934623480000003" blue="0.79187935590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="ddc-8c-ACq" kind="show" id="5Ep-36-GKP"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="B7m-fh-tE1">
+                                        <rect key="frame" x="0.0" y="720" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="B7m-fh-tE1" id="RrU-B3-gl0">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［カム・ウィズミー ! ］乙倉悠貴(ICON)" translatesAutoresizingMaskIntoConstraints="NO" id="Fba-TJ-sk4">
+                                                    <rect key="frame" x="-22" y="4" width="130" height="71"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="乙倉悠貴" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Egp-UB-5vg">
+                                                    <rect key="frame" x="93" y="24" width="155" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.92810334549999995" blue="0.97448564039999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="Usl-rk-51s" kind="show" id="fva-VD-dsV"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="WUU-Rc-qMK">
+                                        <rect key="frame" x="0.0" y="800" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WUU-Rc-qMK" id="Tdg-gD-vn4">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［パレス・オブ・ファンタジア］二宮飛鳥(ICON)" translatesAutoresizingMaskIntoConstraints="NO" id="Vd3-km-gwj">
+                                                    <rect key="frame" x="-22" y="4" width="130" height="71"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="二宮飛鳥" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VZA-A1-5d2">
+                                                    <rect key="frame" x="93" y="24" width="155" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.81057347049999995" green="0.94437930299999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="p0L-g4-6pP" kind="show" id="dTR-oi-UKm"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="6QY-aA-ZEe">
+                                        <rect key="frame" x="0.0" y="880" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6QY-aA-ZEe" id="9ow-A9-7LT">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［バーニングプレゼント］日野茜(ICON)" translatesAutoresizingMaskIntoConstraints="NO" id="SCX-hC-K3L">
+                                                    <rect key="frame" x="-22" y="4" width="130" height="71"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="日野茜" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KTp-RY-5lg">
+                                                    <rect key="frame" x="93" y="24" width="155" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.95934623480000003" blue="0.79187935590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="szJ-Vo-Jgu" kind="show" id="UtW-Pr-qVM"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="DmS-G8-n7a">
+                                        <rect key="frame" x="0.0" y="960" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DmS-G8-n7a" id="JkZ-Yq-X9D">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［ホワイトウィッチ］三村かな子(ICON)" translatesAutoresizingMaskIntoConstraints="NO" id="GOy-6K-rtA">
+                                                    <rect key="frame" x="-22" y="4" width="130" height="71"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="三村かな子" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KZU-oC-BsB">
+                                                    <rect key="frame" x="93" y="24" width="155" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.92810334549999995" blue="0.97448564039999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="ZpZ-1e-RFs" kind="show" id="X8G-Di-n9b"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="ags-3U-dJ8">
+                                        <rect key="frame" x="0.0" y="1040" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ags-3U-dJ8" id="pPs-i6-q7B">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［リュミエール・エトワール］宮本フレデリカ(ICON)" translatesAutoresizingMaskIntoConstraints="NO" id="dUu-k7-fVp">
+                                                    <rect key="frame" x="-22" y="4" width="130" height="71"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="宮本フレデリカ" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y32-qp-fyi">
+                                                    <rect key="frame" x="93" y="24" width="155" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.92810334549999995" blue="0.97448564039999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="yCm-b8-3su" kind="show" id="4wj-9l-V1Q"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="jGw-cM-cEa">
+                                        <rect key="frame" x="0.0" y="1120" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jGw-cM-cEa" id="JQw-a0-haY">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［エンド・オブ・ザ・ブルー］速水奏(ICON)" translatesAutoresizingMaskIntoConstraints="NO" id="CHP-pb-OUm">
+                                                    <rect key="frame" x="-22" y="4" width="130" height="71"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="速水奏" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tfp-Te-GvL">
+                                                    <rect key="frame" x="93" y="24" width="155" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.81057347049999995" green="0.94437930299999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="gXY-sM-9rk" kind="show" id="kq7-tH-n5U"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="eM7-Lf-zpb" id="ICY-ZS-z4X"/>
+                            <outlet property="delegate" destination="eM7-Lf-zpb" id="c1P-uG-31q"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="アイドル" id="HgH-Y5-w1p"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v8R-uW-d3B" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-2089" y="124"/>
+        </scene>
+        <!--立ち絵-->
+        <scene sceneID="D1U-uA-NFI">
+            <objects>
+                <viewController id="Qcj-aV-NRA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3lD-Yq-XRI"/>
+                        <viewControllerLayoutGuide type="bottom" id="9oz-dr-a6M"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mmy-00-qjW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="11" translatesAutoresizingMaskIntoConstraints="NO" id="8eb-lp-1By">
+                                <rect key="frame" x="16" y="144" width="343" height="479"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.81057347050655904" green="0.94437930301657202" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="立ち絵" id="sII-2V-aiP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KWj-N3-QTT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-506" y="-2100"/>
+        </scene>
+        <!--立ち絵-->
+        <scene sceneID="N7y-SS-43C">
+            <objects>
+                <viewController id="lFp-a1-4VD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CnW-qe-qHt"/>
+                        <viewControllerLayoutGuide type="bottom" id="mog-3k-xMn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cy6-Lc-fnb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7" translatesAutoresizingMaskIntoConstraints="NO" id="6dZ-NY-R6S">
+                                <rect key="frame" x="-144" y="165" width="536" height="458"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.9593462347984314" blue="0.79187935590744019" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" tag="2" title="立ち絵" id="48U-Ca-vXy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Obh-mI-Qbe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-506" y="-1453"/>
+        </scene>
+        <!--立ち絵-->
+        <scene sceneID="KaF-c8-8ng">
+            <objects>
+                <viewController id="svu-LT-fl1" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2QZ-WK-UKy"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mpj-iT-m2E"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Zp3-n9-Xvn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" layoutMarginsFollowReadableWidth="YES" image="9" translatesAutoresizingMaskIntoConstraints="NO" id="w0M-j2-bCH">
+                                <rect key="frame" x="50" y="108" width="316" height="515"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.92810334549999995" blue="0.97448564039999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="立ち絵" id="YF5-Dd-ZSL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1kZ-MK-0Fa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-506" y="-2763"/>
+        </scene>
+        <!--大槻唯-->
+        <scene sceneID="9HB-cQ-n5a">
+            <objects>
+                <tabBarController title="大槻唯" automaticallyAdjustsScrollViewInsets="NO" id="FUT-Gu-t4r" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="INB-g6-R1S">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="lFp-a1-4VD" kind="relationship" relationship="viewControllers" id="0p6-3M-6QW"/>
+                        <segue destination="lFp-a1-4VD" kind="show" id="pDj-lG-Cpf"/>
+                        <segue destination="9Gj-w3-2zm" kind="show" id="7oK-R5-o1z"/>
+                        <segue destination="9Gj-w3-2zm" kind="relationship" relationship="viewControllers" id="6dF-jq-KqG"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WOa-Ch-MzE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1303" y="-1453"/>
+        </scene>
+        <!--データ-->
+        <scene sceneID="X09-S5-d15">
+            <objects>
+                <viewController id="9Gj-w3-2zm" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="g3m-Yp-aDz"/>
+                        <viewControllerLayoutGuide type="bottom" id="W4b-0n-0s4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6wR-dz-JPc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="petit_300335.dds" translatesAutoresizingMaskIntoConstraints="NO" id="ate-p7-o1U">
+                                <rect key="frame" x="229" y="482" width="130" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mark_passion" translatesAutoresizingMaskIntoConstraints="NO" id="Rcl-2B-vix">
+                                <rect key="frame" x="67" y="164" width="240" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0iU-KW-DZe">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">［ソル・パライソ］大槻唯
+稀有度：SSR＋
+類型：PASSION
+角色：大槻唯
+
+生命值：44
+VOCAL：4,596
+DANCE：3,725
+VISUAL：7,381
+合計値：15,702
+
+センター効果 トリコロール・メイク
+
+隊伍編成中具備3種類型全類型偶像時， 全員VISUAL值上升100%。
+
+特技 エスペランサ
+
+每隔7秒以高確率(60%)發動，持續4.44秒，COMBO BONUS 上升18%
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.95934623480000003" blue="0.79187935590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="データ" id="xva-bx-RdE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sxg-jN-uo4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="332" y="-1453"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="4rc-x4-9fU">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Oyv-xg-Xem" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="H7B-h9-atu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="eM7-Lf-zpb" kind="relationship" relationship="rootViewController" id="z0N-kw-6LM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jUm-70-s4H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2852" y="124"/>
+        </scene>
+        <!--多田李衣菜-->
+        <scene sceneID="qNg-Rq-Sxa">
+            <objects>
+                <tabBarController title="多田李衣菜" automaticallyAdjustsScrollViewInsets="NO" id="6NK-F0-dPW" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="84j-o9-Mzs">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Qcj-aV-NRA" kind="relationship" relationship="viewControllers" id="Lp7-H5-ihk"/>
+                        <segue destination="akx-89-NnP" kind="show" id="AW4-UX-apu"/>
+                        <segue destination="akx-89-NnP" kind="relationship" relationship="viewControllers" id="VDJ-mQ-0K5"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ROb-aT-h0E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1303" y="-2100"/>
+        </scene>
+        <!--データ-->
+        <scene sceneID="Nb6-gR-lzt">
+            <objects>
+                <viewController id="akx-89-NnP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Pvi-aE-qP8"/>
+                        <viewControllerLayoutGuide type="bottom" id="3sI-Kt-BQt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="22r-lC-JIK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="petit_200365.dds" translatesAutoresizingMaskIntoConstraints="NO" id="eWQ-Z1-Vrm">
+                                <rect key="frame" x="253" y="482" width="106" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mark_cool" translatesAutoresizingMaskIntoConstraints="NO" id="Rpu-c3-e1h">
+                                <rect key="frame" x="67" y="164" width="240" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iRb-wx-3q3">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">［目をあけてみる夢］多田李衣菜
+稀有度：SSR+
+類型：COOL
+角色：多田李衣菜
+
+生命值：44
+VOCAL：3,913
+DANCE：4,702
+VISUAL：7,087
+合計値：15,702
+
+CENTER技能 クールメイク
+
+隊伍中COOL偶像的VISUAL値上升90%
+
+特技 リーナ・アイデンティティー
+
+每隔4秒以高確率(60%)發動，持續2.99秒，PERFECT/GREAT的分數上升17%。</string>
+                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.81057347049999995" green="0.94437930299999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="データ" id="T0A-Ly-HT0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9to-Dh-1GL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="332" y="-2100"/>
+        </scene>
+        <!--小日向美穂-->
+        <scene sceneID="uup-al-2ci">
+            <objects>
+                <tabBarController title="小日向美穂" automaticallyAdjustsScrollViewInsets="NO" id="dkU-Eo-tcy" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="rPt-q2-JAX">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="svu-LT-fl1" kind="relationship" relationship="viewControllers" id="Mqa-1V-mmg"/>
+                        <segue destination="AUe-3B-qFw" kind="show" id="knd-Xn-gnn"/>
+                        <segue destination="AUe-3B-qFw" kind="relationship" relationship="viewControllers" id="qDe-uq-Kc0"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Gl-fA-RdY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1303" y="-2763"/>
+        </scene>
+        <!--データ-->
+        <scene sceneID="3Uv-7X-4xc">
+            <objects>
+                <viewController id="AUe-3B-qFw" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tGD-v0-iXS"/>
+                        <viewControllerLayoutGuide type="bottom" id="uEY-P2-5VK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vIX-xA-ubT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="petit_100291.dds" translatesAutoresizingMaskIntoConstraints="NO" id="pdI-cj-K4j">
+                                <rect key="frame" x="229" y="482" width="130" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mark_cute" translatesAutoresizingMaskIntoConstraints="NO" id="RNy-oC-sZE">
+                                <rect key="frame" x="67" y="164" width="240" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4jo-5S-Js0">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">［P.C.S］小日向美穂
+稀有度：SSR+
+類型：CUTE
+角色：小日向美穂
+
+生命值：44
+VOCAL：7,092
+DANCE：3,863
+VISUAL：4,662
+合計値：15,617
+
+CENTER技能 キュートボイス
+
+隊伍中CUTE偶像的VOCAL值上升90%
+
+特技 Pure/P.C.S
+
+每4秒以高確率發動(60%)，持續2.99秒， PERFECT/GREAT的分數上升17%。</string>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.92810334549999995" blue="0.97448564039999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="データ" id="Xdu-QV-wlD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yHp-e1-69x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="332" y="-2764"/>
+        </scene>
+        <!--立ち絵-->
+        <scene sceneID="NaB-jH-Pnd">
+            <objects>
+                <viewController id="9aZ-gJ-Etc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ROP-vO-OYY"/>
+                        <viewControllerLayoutGuide type="bottom" id="bgt-YP-CYc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Uq4-fS-u9U">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［はじめての表情］橘ありす(立ち絵)" translatesAutoresizingMaskIntoConstraints="NO" id="Jf7-sA-4z0">
+                                <rect key="frame" x="16" y="144" width="343" height="479"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.81057347049999995" green="0.94437930299999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="立ち絵" id="9Yx-3B-XBL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qBQ-xY-rYj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-506" y="-108"/>
+        </scene>
+        <!--立ち絵-->
+        <scene sceneID="p3W-zr-IKQ">
+            <objects>
+                <viewController id="s3b-3c-B0v" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Rtc-he-Q8K"/>
+                        <viewControllerLayoutGuide type="bottom" id="eyy-KG-scR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Dsh-M8-KgQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［わだつみの導き手］依田芳乃(立ち絵)" translatesAutoresizingMaskIntoConstraints="NO" id="jEl-73-nrz">
+                                <rect key="frame" x="-59" y="160" width="536" height="458"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.95934623480000003" blue="0.79187935590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" tag="2" title="立ち絵" id="093-c0-i8B"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j3e-CL-eol" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-506" y="538"/>
+        </scene>
+        <!--立ち絵-->
+        <scene sceneID="xeZ-Wl-pw2">
+            <objects>
+                <viewController id="A7q-zf-NaP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="coL-ya-xIq"/>
+                        <viewControllerLayoutGuide type="bottom" id="oEO-1R-wxo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WvH-Ju-2zi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" layoutMarginsFollowReadableWidth="YES" image="［華ほころびる宴］小早川紗枝(立ち絵)" translatesAutoresizingMaskIntoConstraints="NO" id="S01-qq-fdi">
+                                <rect key="frame" x="48" y="168" width="279" height="450"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.92810334549999995" blue="0.97448564039999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="立ち絵" id="XH7-VK-5Jv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hap-oz-0lk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-508" y="-772"/>
+        </scene>
+        <!--依田芳乃-->
+        <scene sceneID="NEY-WF-bCv">
+            <objects>
+                <tabBarController title="依田芳乃" automaticallyAdjustsScrollViewInsets="NO" id="F8Y-uu-EON" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Fvx-jH-30N">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="s3b-3c-B0v" kind="relationship" relationship="viewControllers" id="dKI-5A-m3k"/>
+                        <segue destination="s3b-3c-B0v" kind="show" id="MB4-ks-3ve">
+                            <nil key="action"/>
+                        </segue>
+                        <segue destination="Wus-2V-lbn" kind="show" id="zPs-K6-Sbk">
+                            <nil key="action"/>
+                        </segue>
+                        <segue destination="Wus-2V-lbn" kind="relationship" relationship="viewControllers" id="gU3-iw-caa"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yb2-xm-ujP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1303" y="538"/>
+        </scene>
+        <!--データ-->
+        <scene sceneID="reM-s7-QxZ">
+            <objects>
+                <viewController id="Wus-2V-lbn" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dyC-kg-fcj"/>
+                        <viewControllerLayoutGuide type="bottom" id="bF1-OW-dWT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ktA-GA-kGf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［わだつみの導き手］依田芳乃(ぷち)" translatesAutoresizingMaskIntoConstraints="NO" id="2JW-ss-Ow2">
+                                <rect key="frame" x="229" y="482" width="130" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mark_passion" translatesAutoresizingMaskIntoConstraints="NO" id="bv2-et-0Xh">
+                                <rect key="frame" x="67" y="164" width="240" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Fx8-2h-yis">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">［わだつみの導き手］依田芳乃
+稀有度：SSR＋
+類型：PASSION
+角色：依田芳乃
+
+生命值：44
+VOCAL：3,820
+DANCE：4,614
+VISUAL：7,029
+合計値：15,463
+
+CENTER技能 パッションメイク
+
+隊伍中PASSION偶像VISUAL值上升90%。
+
+特技 清めの儀
+
+每隔9秒以中確率(52.5%)發動，持續7.43秒，PERFECT/GREAT的分數上升17%。
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.95934623480000003" blue="0.79187935590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="データ" id="dOe-GY-DmY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mf6-4f-sCP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="332" y="538"/>
+        </scene>
+        <!--橘ありす-->
+        <scene sceneID="uyI-t6-Pmm">
+            <objects>
+                <tabBarController title="橘ありす" automaticallyAdjustsScrollViewInsets="NO" id="sTg-2W-fam" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="WM9-2h-Y5R">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9aZ-gJ-Etc" kind="relationship" relationship="viewControllers" id="jc7-mu-bFK"/>
+                        <segue destination="aHt-gY-D5W" kind="show" id="s2h-W1-zXL">
+                            <nil key="action"/>
+                        </segue>
+                        <segue destination="aHt-gY-D5W" kind="relationship" relationship="viewControllers" id="gtp-d3-Sel"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LdY-CP-kmo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1303" y="-108"/>
+        </scene>
+        <!--データ-->
+        <scene sceneID="Tsn-tD-wMr">
+            <objects>
+                <viewController id="aHt-gY-D5W" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9cV-mh-acg"/>
+                        <viewControllerLayoutGuide type="bottom" id="mNF-Ue-vRF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="H2X-u5-pFD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［はじめての表情］橘ありす(ぷち)" translatesAutoresizingMaskIntoConstraints="NO" id="3J7-8Y-4sB">
+                                <rect key="frame" x="253" y="482" width="106" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mark_cool" translatesAutoresizingMaskIntoConstraints="NO" id="Fzt-WM-SYp">
+                                <rect key="frame" x="67" y="164" width="240" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="txi-AP-LXp">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">［はじめての表情］橘ありす
+稀有度：SSR+
+類型：COOL
+角色：橘ありす
+
+生命值：44
+VOCAL：4,778
+DANCE：4,845
+VISUAL：5,173
+合計値：14,796
+
+CENTER技能 クールエナジー
+
+隊伍中COOL偶像的生命值上升30%
+
+特技 こぼれる純心
+
+每隔11秒以高確率(60%)發動，持續5.98秒， 每個PERFECT回復3生命值
+</string>
+                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.81057347049999995" green="0.94437930299999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="データ" id="fqg-Tg-439"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jqi-OK-TLZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="332" y="-108"/>
+        </scene>
+        <!--小早川紗枝-->
+        <scene sceneID="ByO-hL-pjk">
+            <objects>
+                <tabBarController title="小早川紗枝" automaticallyAdjustsScrollViewInsets="NO" id="1Af-BS-DTg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Odx-ki-bGp">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="A7q-zf-NaP" kind="relationship" relationship="viewControllers" id="UyJ-5G-aTk"/>
+                        <segue destination="Jm4-VL-HMd" kind="show" id="MpV-Gb-lnm">
+                            <nil key="action"/>
+                        </segue>
+                        <segue destination="Jm4-VL-HMd" kind="relationship" relationship="viewControllers" id="Ktu-AR-r0l"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6lt-ET-q4a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1303" y="-772"/>
+        </scene>
+        <!--データ-->
+        <scene sceneID="geE-IC-BD9">
+            <objects>
+                <viewController id="Jm4-VL-HMd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UYA-sT-IHZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="ooA-5u-LED"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ys5-hd-Zqq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［華ほころびる宴］小早川紗枝(ぷち)" translatesAutoresizingMaskIntoConstraints="NO" id="C06-x8-fQ1">
+                                <rect key="frame" x="229" y="482" width="130" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mark_cute" translatesAutoresizingMaskIntoConstraints="NO" id="HLG-UQ-cwn">
+                                <rect key="frame" x="67" y="164" width="240" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1gS-6m-8ap">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">［華ほころびる宴］小早川紗枝
+稀有度：SSR+
+類型：CUTE
+角色：小早川紗枝
+
+生命值：44
+VOCAL：4,649
+DANCE：3,828
+VISUAL：7,196
+合計値：15,673
+
+CENTER技能 キュートメイク
+
+隊伍中CUTE偶像的VISUAL值上升90%
+
+特技 想い紡ぐ紅
+
+每9秒以中確率(52.5%)發動，持續7.43秒，COMBO BONUS上升15%
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.92810334549999995" blue="0.97448564039999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="データ" id="mzD-5G-eSa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AbR-64-Z8S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="332" y="-772"/>
+        </scene>
+        <!--立ち絵-->
+        <scene sceneID="wK8-IA-5oR">
+            <objects>
+                <viewController id="kzI-HC-BYh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jP1-It-Sgv"/>
+                        <viewControllerLayoutGuide type="bottom" id="tfT-nT-5SO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mXv-xF-r2Q">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［オーバー・マイセルフ］渋谷凛(立ち絵)" translatesAutoresizingMaskIntoConstraints="NO" id="7Vy-B2-ctm">
+                                <rect key="frame" x="-32" y="139" width="343" height="479"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.81057347049999995" green="0.94437930299999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="立ち絵" id="Btd-IA-eVE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RjX-ID-Kd1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-508" y="1893"/>
+        </scene>
+        <!--立ち絵-->
+        <scene sceneID="Zze-ct-Jqx">
+            <objects>
+                <viewController id="Nec-0o-dmw" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iGc-6b-Mhm"/>
+                        <viewControllerLayoutGuide type="bottom" id="aLc-Es-Una"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="J0E-q4-7Wd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［グロリアス★グロウ］城ヶ崎美嘉+(立ち絵)" translatesAutoresizingMaskIntoConstraints="NO" id="ypN-tY-fgS">
+                                <rect key="frame" x="-81" y="160" width="536" height="458"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.95934623480000003" blue="0.79187935590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" tag="2" title="立ち絵" id="SFk-Sr-NEj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lKK-xM-K5J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-508" y="2539"/>
+        </scene>
+        <!--立ち絵-->
+        <scene sceneID="PBM-RF-QgQ">
+            <objects>
+                <viewController id="gvN-rw-1si" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DEm-5z-t8T"/>
+                        <viewControllerLayoutGuide type="bottom" id="TsZ-NF-CHg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Y3X-AV-Zxe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" layoutMarginsFollowReadableWidth="YES" image="［ぱーりぃー★ひゃっはー］星輝子+(立ち絵)" translatesAutoresizingMaskIntoConstraints="NO" id="757-DV-n9i">
+                                <rect key="frame" x="48" y="103" width="120" height="515"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.95934623480000003" blue="0.79187935590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="立ち絵" id="uaf-R9-RPB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bOz-Nw-wjZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-508" y="1219"/>
+        </scene>
+        <!--城ヶ崎美嘉-->
+        <scene sceneID="EtJ-LI-l6N">
+            <objects>
+                <tabBarController title="城ヶ崎美嘉" automaticallyAdjustsScrollViewInsets="NO" id="ddc-8c-ACq" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="LeP-YB-mNa">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Nec-0o-dmw" kind="relationship" relationship="viewControllers" id="MBM-9w-xjO"/>
+                        <segue destination="Nec-0o-dmw" kind="show" id="Kfw-S1-qaj">
+                            <nil key="action"/>
+                        </segue>
+                        <segue destination="IDR-7f-qzG" kind="show" id="cLX-5h-RaH">
+                            <nil key="action"/>
+                        </segue>
+                        <segue destination="IDR-7f-qzG" kind="relationship" relationship="viewControllers" id="8jv-2C-Ybb"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5y1-lX-Kj5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1303" y="2539"/>
+        </scene>
+        <!--データ-->
+        <scene sceneID="fCW-Xm-RTg">
+            <objects>
+                <viewController id="IDR-7f-qzG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7Py-9V-SC2"/>
+                        <viewControllerLayoutGuide type="bottom" id="ycr-1m-a0h"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oMH-Xg-vFy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［グロリアス★グロウ］城ヶ崎美嘉+(ぷち)" translatesAutoresizingMaskIntoConstraints="NO" id="zDO-UL-dW9">
+                                <rect key="frame" x="229" y="482" width="130" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mark_passion" translatesAutoresizingMaskIntoConstraints="NO" id="QKp-GT-GIl">
+                                <rect key="frame" x="67" y="164" width="240" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HJj-cs-EsZ">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">［グロリアス★グロウ］城ヶ崎美嘉
+稀有度：SSR＋
+類型：PASSION
+角色：城ヶ崎美嘉
+
+生命值：44
+VOCAL：7,381
+DANCE：3,725
+VISUAL：4,596
+合計値：15,702
+
+CENTER技能 トリコロール・ボイス
+
+隊伍編成中具備3種類型全類型偶像時， 全員VOCAL值上升100%。
+
+特技 メイクオブライト
+
+每隔13秒以高確率(60%)發動，持續8.97秒，COMBO BONUS 上升18%
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.95934623480000003" blue="0.79187935590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="データ" id="ot8-Yv-PvO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hWH-F4-NqI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="332" y="2539"/>
+        </scene>
+        <!--渋谷凛-->
+        <scene sceneID="oEC-9A-Eiz">
+            <objects>
+                <tabBarController title="渋谷凛" automaticallyAdjustsScrollViewInsets="NO" id="XdC-uJ-QZK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="35d-xf-MyM">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="kzI-HC-BYh" kind="relationship" relationship="viewControllers" id="Fbi-g8-fOP"/>
+                        <segue destination="J2o-JG-HsF" kind="show" id="n3J-R8-yHq">
+                            <nil key="action"/>
+                        </segue>
+                        <segue destination="J2o-JG-HsF" kind="relationship" relationship="viewControllers" id="x96-R1-SJk"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nqb-0z-oMK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1303" y="1893"/>
+        </scene>
+        <!--データ-->
+        <scene sceneID="nmN-bv-zmB">
+            <objects>
+                <viewController id="J2o-JG-HsF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mxH-ol-WZb"/>
+                        <viewControllerLayoutGuide type="bottom" id="uIA-TH-dzu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="W6y-0u-N4p">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［オーバー・マイセルフ］渋谷凛(ぷち)" translatesAutoresizingMaskIntoConstraints="NO" id="8cs-g4-XpI">
+                                <rect key="frame" x="253" y="482" width="106" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mark_cool" translatesAutoresizingMaskIntoConstraints="NO" id="l8x-XO-73a">
+                                <rect key="frame" x="67" y="164" width="240" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wf9-RN-OzB">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">［オーバー・マイセルフ］渋谷凛
+稀有度：SSR+
+類型：COOL
+角色：渋谷凛
+
+生命值：44
+VOCAL：7,381
+DANCE：4,596
+VISUAL：3,725
+合計値：15,702
+
+CENTER技能 トリコロール・ボイス
+
+隊伍編成中具備3種類型全類型偶像時， 全員VOCAL值上升100%。
+
+特技 見えてきた光
+
+COMBO BONUS 上升18%，每隔7秒以高確率(60%)發動，持續4.44秒
+</string>
+                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.81057347049999995" green="0.94437930299999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="データ" id="R3T-pe-GO9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sgd-Yz-10H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="332" y="1893"/>
+        </scene>
+        <!--星輝子-->
+        <scene sceneID="UtD-I4-Ajd">
+            <objects>
+                <tabBarController title="星輝子" automaticallyAdjustsScrollViewInsets="NO" id="GVS-9A-ZDb" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="fkK-cA-Nno">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="gvN-rw-1si" kind="relationship" relationship="viewControllers" id="mMl-A5-5Gy"/>
+                        <segue destination="vqK-bK-6jL" kind="show" id="PVw-uY-i7e">
+                            <nil key="action"/>
+                        </segue>
+                        <segue destination="vqK-bK-6jL" kind="relationship" relationship="viewControllers" id="z33-BY-FmL"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vxz-ol-g6p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1303" y="1219"/>
+        </scene>
+        <!--データ-->
+        <scene sceneID="QZc-jD-wju">
+            <objects>
+                <viewController id="vqK-bK-6jL" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3Eu-BR-O9X"/>
+                        <viewControllerLayoutGuide type="bottom" id="mbQ-mp-4Qf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nsN-Q0-7cj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［ぱーりぃー★ひゃっはー］星輝子+(ぷち)" translatesAutoresizingMaskIntoConstraints="NO" id="ckf-CL-AtK">
+                                <rect key="frame" x="229" y="482" width="130" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mark_passion" translatesAutoresizingMaskIntoConstraints="NO" id="Ty5-Gm-Hep">
+                                <rect key="frame" x="67" y="164" width="240" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="H92-f4-Jlv">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">［ぱーりぃー★ひゃっはー］星輝子
+稀有度：SSR＋
+類型：PASSION
+角色：星輝子
+
+生命值：44
+VOCAL：6,012
+DANCE：5,045
+VISUAL：4,851
+合計値：15,908
+
+CENTER技能 パッションブリリアンス
+
+隊伍中PASSION偶像全能力上升30%。
+
+特技 炎熱キノコ炒め
+
+每隔6秒以中確率(52.5%)發動，持續4.44秒，PERFECT/GREAT的分數上升17%。
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.95934623480000003" blue="0.79187935590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="データ" id="4Ak-v9-g3e"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9rG-Ko-ipx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="332" y="1218"/>
+        </scene>
+        <!--立ち絵-->
+        <scene sceneID="G0N-GP-D3T">
+            <objects>
+                <viewController id="3sg-xu-VaA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="svw-yc-JgN"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fph-WI-L9k"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4cy-n5-ksI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［パレス・オブ・ファンタジア］二宮飛鳥(立ち絵)" translatesAutoresizingMaskIntoConstraints="NO" id="Wka-cd-8y9">
+                                <rect key="frame" x="50" y="139" width="343" height="479"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.81057347049999995" green="0.94437930299999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="立ち絵" id="Nxt-Z5-aJP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gAt-hh-Xa3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-508" y="3884"/>
+        </scene>
+        <!--立ち絵-->
+        <scene sceneID="x5o-Xp-pfX">
+            <objects>
+                <viewController id="cOz-u4-1w0" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AWs-hb-qLx"/>
+                        <viewControllerLayoutGuide type="bottom" id="DHl-oI-ipp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GWu-C6-6Wd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［バーニングプレゼント］日野茜(立ち絵)" translatesAutoresizingMaskIntoConstraints="NO" id="9oM-C7-jdN">
+                                <rect key="frame" x="-109" y="160" width="536" height="458"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.95934623480000003" blue="0.79187935590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" tag="2" title="立ち絵" id="URf-mi-J7A"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8vX-50-wek" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-508" y="4530"/>
+        </scene>
+        <!--立ち絵-->
+        <scene sceneID="atb-a1-Jc3">
+            <objects>
+                <viewController id="PBm-KI-Raw" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5c7-co-lyk"/>
+                        <viewControllerLayoutGuide type="bottom" id="xXb-aS-O76"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DxH-sn-OF8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" layoutMarginsFollowReadableWidth="YES" image="［カム・ウィズミー ! ］乙倉悠貴(立ち絵)" translatesAutoresizingMaskIntoConstraints="NO" id="XC9-br-Jfm">
+                                <rect key="frame" x="68" y="168" width="279" height="450"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.92810334549999995" blue="0.97448564039999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="立ち絵" id="LnB-xs-fT9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ChZ-yF-rOQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-508" y="3218"/>
+        </scene>
+        <!--日野茜-->
+        <scene sceneID="ODR-DO-vi9">
+            <objects>
+                <tabBarController title="日野茜" automaticallyAdjustsScrollViewInsets="NO" id="szJ-Vo-Jgu" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="pgJ-Nq-ZVR">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="cOz-u4-1w0" kind="relationship" relationship="viewControllers" id="zuw-Hv-vtv"/>
+                        <segue destination="cOz-u4-1w0" kind="show" id="tJc-Du-0sL">
+                            <nil key="action"/>
+                        </segue>
+                        <segue destination="UB7-EE-uRf" kind="show" id="6cG-Q4-9gm">
+                            <nil key="action"/>
+                        </segue>
+                        <segue destination="UB7-EE-uRf" kind="relationship" relationship="viewControllers" id="ZI3-mf-rK5"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="02a-7P-Vts" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1303" y="4530"/>
+        </scene>
+        <!--データ-->
+        <scene sceneID="dfi-pJ-9KM">
+            <objects>
+                <viewController id="UB7-EE-uRf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EOk-bZ-sGD"/>
+                        <viewControllerLayoutGuide type="bottom" id="ixK-6q-3Bo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rpJ-I7-FlW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［バーニングプレゼント］日野茜(ぷち)" translatesAutoresizingMaskIntoConstraints="NO" id="gzO-lO-yoz">
+                                <rect key="frame" x="229" y="482" width="130" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mark_passion" translatesAutoresizingMaskIntoConstraints="NO" id="36N-jV-ysC">
+                                <rect key="frame" x="67" y="164" width="240" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JMJ-zA-kD7">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">［バーニングプレゼント］日野茜
+稀有度：SSR＋
+類型：PASSION
+角色：日野茜
+
+生命值：44
+VOCAL：5,010
+DANCE：4,847
+VISUAL：4,815
+合計値：14,672
+
+CENTER技能 パッションエナジー
+
+隊伍中PASSION偶像的生命值上升30%
+
+特技 情熱デリバリー
+
+每隔13秒以高確率(60%)發動，持續7.43秒， 每個PERFECT回復3生命值</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.95934623480000003" blue="0.79187935590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="データ" id="qAB-yv-f0O"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PAe-ms-eb4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="332" y="4530"/>
+        </scene>
+        <!--二宮飛鳥-->
+        <scene sceneID="q6q-bS-LpJ">
+            <objects>
+                <tabBarController title="二宮飛鳥" automaticallyAdjustsScrollViewInsets="NO" id="p0L-g4-6pP" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="rbP-Jh-WoZ">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="3sg-xu-VaA" kind="relationship" relationship="viewControllers" id="Usv-8w-rq1"/>
+                        <segue destination="LfF-zY-HB9" kind="show" id="ffL-ml-aqG">
+                            <nil key="action"/>
+                        </segue>
+                        <segue destination="LfF-zY-HB9" kind="relationship" relationship="viewControllers" id="4Xh-0M-6wF"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iy3-iT-QZE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1303" y="3884"/>
+        </scene>
+        <!--データ-->
+        <scene sceneID="Bdb-ll-ipZ">
+            <objects>
+                <viewController id="LfF-zY-HB9" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9M7-CZ-YMV"/>
+                        <viewControllerLayoutGuide type="bottom" id="zVk-Oa-b5z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2I8-J0-D6j">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［パレス・オブ・ファンタジア］二宮飛鳥(ぷち)" translatesAutoresizingMaskIntoConstraints="NO" id="aX1-5M-4pr">
+                                <rect key="frame" x="253" y="482" width="106" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mark_cool" translatesAutoresizingMaskIntoConstraints="NO" id="4DU-Ij-yEJ">
+                                <rect key="frame" x="67" y="164" width="240" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Do8-cx-ebd">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">［パレス・オブ・ファンタジア］二宮飛鳥
+稀有度：SSR+
+類型：COOL
+角色：二宮飛鳥
+
+生命值：44
+VOCAL：4,706
+DANCE：3,918
+VISUAL：7,081
+合計値：15,705
+
+CENTER技能 クールメイク
+
+隊伍中COOL偶像的VISUAL值上升90%
+
+特技 エスコートフォーユー
+
+每7秒以中確率(52.5%)發動並消耗11點生命值，持續5.98秒，PERFECT分數上升18%， NICE/BAD不會中斷COMBO
+</string>
+                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.81057347049999995" green="0.94437930299999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="データ" id="C2D-TL-8iw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L8v-vq-cBW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="332" y="3884"/>
+        </scene>
+        <!--乙倉悠貴-->
+        <scene sceneID="nuk-bE-TsU">
+            <objects>
+                <tabBarController title="乙倉悠貴" automaticallyAdjustsScrollViewInsets="NO" id="Usl-rk-51s" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="nRq-gn-cOe">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="PBm-KI-Raw" kind="relationship" relationship="viewControllers" id="LVd-ox-9vb"/>
+                        <segue destination="9tW-mb-gmw" kind="show" id="zVO-2k-2No"/>
+                        <segue destination="9tW-mb-gmw" kind="relationship" relationship="viewControllers" id="cZi-mP-2zo"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xyr-cN-Rx9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1303" y="3220"/>
+        </scene>
+        <!--データ-->
+        <scene sceneID="niN-Ha-dfU">
+            <objects>
+                <viewController id="9tW-mb-gmw" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="h5S-w0-u09"/>
+                        <viewControllerLayoutGuide type="bottom" id="uks-Ih-zd9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PxJ-zo-Bbx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［カム・ウィズミー ! ］乙倉悠貴(ぷち)" translatesAutoresizingMaskIntoConstraints="NO" id="FUq-Og-MDn">
+                                <rect key="frame" x="257" y="482" width="130" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mark_cute" translatesAutoresizingMaskIntoConstraints="NO" id="fFF-B6-Hja">
+                                <rect key="frame" x="67" y="164" width="240" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cDg-6f-imR">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">［カム・ウィズミー！］乙倉悠貴
+稀有度：SSR＋
+類型：CUTE
+角色：乙倉悠貴
+
+生命值：44
+VOCAL：3,832
+DANCE：4,652
+VISUAL：7,188
+合計値：15,672
+
+CENTER技能 キュートプリンセス
+
+隊伍編成中只包含CUTE偶像時全員全能力上升50%
+
+特技 あこがれ目指して
+
+隊伍編成中只包含CUTE偶像時每隔11秒以高確率(60%)發動，持續7.43秒，PERFECT得到的分數上升16%，COMBO BONUS上升14%
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.92810334549999995" blue="0.97448564039999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="データ" id="dSc-WH-vAt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GAs-BY-9Ku" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="332" y="3219"/>
+        </scene>
+        <!--立ち絵-->
+        <scene sceneID="Cdq-6w-c2e">
+            <objects>
+                <viewController id="CRV-lF-FfO" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="f2k-mt-rmv"/>
+                        <viewControllerLayoutGuide type="bottom" id="zB6-09-CuZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IdQ-9z-4g2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［リュミエール・エトワール］宮本フレデリカ(立ち絵)" translatesAutoresizingMaskIntoConstraints="NO" id="yo2-Su-KMm">
+                                <rect key="frame" x="116" y="139" width="343" height="479"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.92810334549999995" blue="0.97448564039999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="立ち絵" id="CcR-BO-eOp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sq3-os-46K" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-508" y="5882"/>
+        </scene>
+        <!--立ち絵-->
+        <scene sceneID="GEO-ER-F4A">
+            <objects>
+                <viewController id="Hve-JG-cO4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OfX-Eo-XBg"/>
+                        <viewControllerLayoutGuide type="bottom" id="cLn-cw-uXG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ss3-ii-h5I">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" layoutMarginsFollowReadableWidth="YES" image="［ホワイトウィッチ］三村かな子(立ち絵)" translatesAutoresizingMaskIntoConstraints="NO" id="g0Y-Af-cmr">
+                                <rect key="frame" x="48" y="168" width="279" height="450"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.92810334549999995" blue="0.97448564039999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="立ち絵" id="kHN-c0-3SC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YyM-VW-6Fc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-508" y="5218"/>
+        </scene>
+        <!--宮本フレデリカ-->
+        <scene sceneID="j6T-1M-FEd">
+            <objects>
+                <tabBarController title="宮本フレデリカ" automaticallyAdjustsScrollViewInsets="NO" id="yCm-b8-3su" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Fvq-aU-LA9">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="CRV-lF-FfO" kind="relationship" relationship="viewControllers" id="2ft-pQ-KKL"/>
+                        <segue destination="1vl-Tn-1zF" kind="show" id="ah1-kA-Qsj">
+                            <nil key="action"/>
+                        </segue>
+                        <segue destination="1vl-Tn-1zF" kind="relationship" relationship="viewControllers" id="FtU-ip-CVB"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kir-Zg-XJb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1303" y="5882"/>
+        </scene>
+        <!--データ-->
+        <scene sceneID="QoY-3K-r2X">
+            <objects>
+                <viewController id="1vl-Tn-1zF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eIu-Eg-RXM"/>
+                        <viewControllerLayoutGuide type="bottom" id="mku-jH-Xal"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tsq-Mg-hde">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［リュミエール・エトワール］宮本フレデリカ(ぷち)" translatesAutoresizingMaskIntoConstraints="NO" id="3eb-kC-3Hh">
+                                <rect key="frame" x="253" y="482" width="106" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mark_cute" translatesAutoresizingMaskIntoConstraints="NO" id="QhD-Wy-u6J">
+                                <rect key="frame" x="67" y="164" width="240" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9oF-i4-pZ3">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">［リュミエール・エトワール］宮本フレデリカ
+稀有度：SSR+
+類型：CUTE
+角色：宮本フレデリカ
+
+生命值：44
+VOCAL：7,123
+DANCE：3,838
+VISUAL：4,646
+合計値：15,607
+
+CENTER技能 キュートボイス
+
+隊伍中CUTE偶像的VOCAL值上升90%
+
+特技 おめかしアリア
+
+每6秒以中確率(52.5%)發動並消耗9點生命值，持續4.44秒，PERFECT分數上升18%， NICE/BAD不會中斷COMBO
+</string>
+                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.92810334549999995" blue="0.97448564039999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="データ" id="rTW-yW-RU6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fxF-9h-Vo7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="332" y="5882"/>
+        </scene>
+        <!--三村かな子-->
+        <scene sceneID="OWH-IA-HRk">
+            <objects>
+                <tabBarController title="三村かな子" automaticallyAdjustsScrollViewInsets="NO" id="ZpZ-1e-RFs" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="trt-MD-wZQ">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Hve-JG-cO4" kind="relationship" relationship="viewControllers" id="12S-TX-WzT"/>
+                        <segue destination="oty-iZ-gBQ" kind="show" id="hEF-xx-zAi">
+                            <nil key="action"/>
+                        </segue>
+                        <segue destination="oty-iZ-gBQ" kind="relationship" relationship="viewControllers" id="Ko6-Ai-2wZ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Re-ON-jYC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1303" y="5218"/>
+        </scene>
+        <!--データ-->
+        <scene sceneID="N5d-Sg-HpG">
+            <objects>
+                <viewController id="oty-iZ-gBQ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dVn-Yk-voM"/>
+                        <viewControllerLayoutGuide type="bottom" id="jgo-gz-tA9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Hbp-82-DAu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［ホワイトウィッチ］三村かな子(ぷち)" translatesAutoresizingMaskIntoConstraints="NO" id="yOY-zw-7hg">
+                                <rect key="frame" x="229" y="482" width="130" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mark_cute" translatesAutoresizingMaskIntoConstraints="NO" id="g22-NG-5WH">
+                                <rect key="frame" x="67" y="164" width="240" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FbD-w5-jdl">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">［ホワイトウィッチ］三村かな子
+稀有度：SSR+
+類型：CUTE
+角色：三村かな子
+
+生命值：44
+VOCAL：4,841
+DANCE：5,023
+VISUAL：4,804
+合計値：14,668
+
+CENTER技能 キュートエナジー
+
+隊伍中CUTE偶像的生命值上升30%
+
+特技 クリーミーマジック
+
+每隔10秒以高確率(60%)發動，持續5.98秒， 每個PERFECT回復3生命值
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.92810334549999995" blue="0.97448564039999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="データ" id="ncb-Zf-iHw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GGu-cs-hII" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="332" y="5216"/>
+        </scene>
+        <!--立ち絵-->
+        <scene sceneID="Ir2-28-iDD">
+            <objects>
+                <viewController id="g9a-uS-5Mw" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LPe-zJ-rsX"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZRB-oJ-GYg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lvV-a5-Nlf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［エンド・オブ・ザ・ブルー］速水奏(立ち絵)" translatesAutoresizingMaskIntoConstraints="NO" id="Rxh-k7-Ek8">
+                                <rect key="frame" x="30" y="158" width="315" height="460"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.81057347049999995" green="0.94437930299999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="立ち絵" id="wvA-4f-0xN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="opu-4y-LNK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-508" y="6529.385307346327"/>
+        </scene>
+        <!--速水奏-->
+        <scene sceneID="szs-F5-HLp">
+            <objects>
+                <tabBarController title="速水奏" automaticallyAdjustsScrollViewInsets="NO" id="gXY-sM-9rk" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="GVu-65-IhB">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="g9a-uS-5Mw" kind="relationship" relationship="viewControllers" id="diH-eB-hLc"/>
+                        <segue destination="teX-D1-DqJ" kind="show" id="PVw-lq-MOY">
+                            <nil key="action"/>
+                        </segue>
+                        <segue destination="teX-D1-DqJ" kind="relationship" relationship="viewControllers" id="8oC-3j-eoL"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pa1-Jx-Hwx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1303" y="6530"/>
+        </scene>
+        <!--データ-->
+        <scene sceneID="wZh-O7-W23">
+            <objects>
+                <viewController id="teX-D1-DqJ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="30Y-td-Rtk"/>
+                        <viewControllerLayoutGuide type="bottom" id="n1K-p3-iiw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mS8-L7-yMf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="［エンド・オブ・ザ・ブルー］速水奏(ぷち)" translatesAutoresizingMaskIntoConstraints="NO" id="wKl-xy-4dS">
+                                <rect key="frame" x="253" y="482" width="106" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mark_cool" translatesAutoresizingMaskIntoConstraints="NO" id="FbC-gt-ZCN">
+                                <rect key="frame" x="67" y="164" width="240" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IUI-Hb-ptn">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">［エンド・オブ・ザ・ブルー］速水奏
+稀有度：SSR+
+類型：COOL
+角色：速水奏
+
+生命值：44
+VOCAL：7,381
+DANCE：3,725
+VISUAL：4,596
+合計値：15,702
+
+CENTER技能 トリコロール・アビリティ
+
+隊伍編成中具備3種類型全類型偶像時，全員特技發動率上升50%
+
+特技 ブレス・オブ・キス 
+每8秒以高確率(60%)發動，持續7.43秒，大幅增加其他偶像的技能效果 </string>
+                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.81057347049999995" green="0.94437930299999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="データ" id="nGw-EM-Dn9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ytk-Ze-Pem" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="332" y="6530"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="100291_icon" width="124" height="124"/>
+        <image name="11" width="286" height="399"/>
+        <image name="200365_icon" width="124" height="124"/>
+        <image name="300335_icon" width="124" height="124"/>
+        <image name="7" width="536" height="458"/>
+        <image name="9" width="263" height="429"/>
+        <image name="mark_cool" width="700" height="700"/>
+        <image name="mark_cute" width="700" height="700"/>
+        <image name="mark_passion" width="700" height="700"/>
+        <image name="petit_100291.dds" width="100" height="182"/>
+        <image name="petit_200365.dds" width="124" height="176"/>
+        <image name="petit_300335.dds" width="160" height="204"/>
+        <image name="［はじめての表情］橘ありす(ICON)" width="124" height="124"/>
+        <image name="［はじめての表情］橘ありす(ぷち)" width="96" height="164"/>
+        <image name="［はじめての表情］橘ありす(立ち絵)" width="291" height="384"/>
+        <image name="［ぱーりぃー★ひゃっはー］星輝子+(ICON)" width="124" height="124"/>
+        <image name="［ぱーりぃー★ひゃっはー］星輝子+(ぷち)" width="120" height="184"/>
+        <image name="［ぱーりぃー★ひゃっはー］星輝子+(立ち絵)" width="578" height="464"/>
+        <image name="［わだつみの導き手］依田芳乃(ICON)" width="124" height="124"/>
+        <image name="［わだつみの導き手］依田芳乃(ぷち)" width="100" height="164"/>
+        <image name="［わだつみの導き手］依田芳乃(立ち絵)" width="402" height="423"/>
+        <image name="［エンド・オブ・ザ・ブルー］速水奏(ICON)" width="124" height="124"/>
+        <image name="［エンド・オブ・ザ・ブルー］速水奏(ぷち)" width="100" height="180"/>
+        <image name="［エンド・オブ・ザ・ブルー］速水奏(立ち絵)" width="226" height="388"/>
+        <image name="［オーバー・マイセルフ］渋谷凛(ICON)" width="124" height="124"/>
+        <image name="［オーバー・マイセルフ］渋谷凛(ぷち)" width="120" height="188"/>
+        <image name="［オーバー・マイセルフ］渋谷凛(立ち絵)" width="623" height="452"/>
+        <image name="［カム・ウィズミー ! ］乙倉悠貴(ICON)" width="124" height="124"/>
+        <image name="［カム・ウィズミー ! ］乙倉悠貴(ぷち)" width="128" height="180"/>
+        <image name="［カム・ウィズミー ! ］乙倉悠貴(立ち絵)" width="500" height="446"/>
+        <image name="［グロリアス★グロウ］城ヶ崎美嘉+(ICON)" width="124" height="124"/>
+        <image name="［グロリアス★グロウ］城ヶ崎美嘉+(ぷち)" width="124" height="180"/>
+        <image name="［グロリアス★グロウ］城ヶ崎美嘉+(立ち絵)" width="765" height="453"/>
+        <image name="［バーニングプレゼント］日野茜(ICON)" width="124" height="124"/>
+        <image name="［バーニングプレゼント］日野茜(ぷち)" width="128" height="196"/>
+        <image name="［バーニングプレゼント］日野茜(立ち絵)" width="461" height="464"/>
+        <image name="［パレス・オブ・ファンタジア］二宮飛鳥(ICON)" width="124" height="124"/>
+        <image name="［パレス・オブ・ファンタジア］二宮飛鳥(ぷち)" width="160" height="184"/>
+        <image name="［パレス・オブ・ファンタジア］二宮飛鳥(立ち絵)" width="510" height="437"/>
+        <image name="［ホワイトウィッチ］三村かな子(ICON)" width="124" height="124"/>
+        <image name="［ホワイトウィッチ］三村かな子(ぷち)" width="116" height="176"/>
+        <image name="［ホワイトウィッチ］三村かな子(立ち絵)" width="412" height="427"/>
+        <image name="［リュミエール・エトワール］宮本フレデリカ(ICON)" width="124" height="124"/>
+        <image name="［リュミエール・エトワール］宮本フレデリカ(ぷち)" width="112" height="180"/>
+        <image name="［リュミエール・エトワール］宮本フレデリカ(立ち絵)" width="634" height="451"/>
+        <image name="［華ほころびる宴］小早川紗枝(ICON)" width="124" height="124"/>
+        <image name="［華ほころびる宴］小早川紗枝(ぷち)" width="100" height="180"/>
+        <image name="［華ほころびる宴］小早川紗枝(立ち絵)" width="598" height="414"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="MBM-9w-xjO"/>
+        <segue reference="cLX-5h-RaH"/>
+        <segue reference="ah1-kA-Qsj"/>
+        <segue reference="ffL-ml-aqG"/>
+        <segue reference="PVw-lq-MOY"/>
+        <segue reference="6dF-jq-KqG"/>
+        <segue reference="0p6-3M-6QW"/>
+        <segue reference="x96-R1-SJk"/>
+        <segue reference="tJc-Du-0sL"/>
+        <segue reference="6cG-Q4-9gm"/>
+        <segue reference="MB4-ks-3ve"/>
+        <segue reference="zPs-K6-Sbk"/>
+        <segue reference="knd-Xn-gnn"/>
+        <segue reference="hEF-xx-zAi"/>
+        <segue reference="AW4-UX-apu"/>
+        <segue reference="PVw-uY-i7e"/>
+        <segue reference="MpV-Gb-lnm"/>
+        <segue reference="zVO-2k-2No"/>
+        <segue reference="gtp-d3-Sel"/>
+    </inferredMetricsTieBreakers>
 </document>
